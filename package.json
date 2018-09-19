@@ -1,5 +1,5 @@
 {
-  "name": "blank",
+  "name": "ngx-quill-ionic",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
@@ -26,13 +26,19 @@
     "@ionic/storage": "2.1.3",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
+    "ngx-quill": "3.6.0",
+    "quill": "~1.3.6",
     "rxjs": "5.5.11",
     "sw-toolbox": "3.6.0",
     "zone.js": "0.8.26"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.0",
+    "@types/quill": "~1.3.10",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "config": {
+    "ionic_copy": "./config/copy.config.js"
+  }
 }
