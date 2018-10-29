@@ -17,3 +17,8 @@
 @import "./quill.core.css";
 @import "./quill.snow.css";
 @import "./quill.bubble.css";
+
+[contenteditable] {
+  -webkit-user-select: text;
+  user-select: text;
+}
