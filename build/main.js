@@ -59,7 +59,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/bengtler/dev/ngx-quill-ionic-v3/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  The world is your oyster.\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.\n  </p>\n  <quill-editor [ngModel]="text"></quill-editor>\n</ion-content>\n'/*ion-inline-end:"/Users/bengtler/dev/ngx-quill-ionic-v3/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/bengtler/dev/ngx-quill-ionic-v3/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  The world is your oyster.\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.\n  </p>\n  <quill-editor [style]="{ height: \'200px\' }" [ngModel]="text"></quill-editor>\n</ion-content>\n'/*ion-inline-end:"/Users/bengtler/dev/ngx-quill-ionic-v3/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
